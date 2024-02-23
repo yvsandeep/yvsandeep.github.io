@@ -180,21 +180,66 @@
 
             <br>
         </div>
-
+        
         <div class="container">
            <div class="row panel-default">
             <div class="col-md-10  col-md-offset-1">
               <div class="panel-body ">
+
+
+                <h4>
+                  <strong>Quantization of Deep Learning models for Human Activity Recognition<a href="https://github.com/Rezar/light-har"> [Github]</a></strong>
+                </h4>
+                <div class="about-content">
+                    <UL>
+                      <LI> This project focuses on the quantization of deep learning models to enhance the performance and efficiency of Human Activity Recognition systems. Working under the guidance of Prof. Reza Rawassizadeh at Boston University, we explored various quantization techniques to optimize model performance  
+                      <LI> Techniques implemented using Pytorch, Tensorflow and Coreml:
+                        <UL>
+                        <LI> Dynamic Quantization
+                        <LI> Quantization Aware Training
+                        <LI> Static Quantization  
+                        <LI> Structured and Unstructured Pruning
+                        </UL>
+                      <LI> The project successfully implemented the above techniques, resulting in models that were significantly more efficient without compromising on accuracy. We used the WISDM dataset for training and testing, applying various models like MLP, CNN, LSTM, GRU, and Transformer. The models were evaluated based on size, accuracy, CPU usage, and inference time  
+                    </UL>
+                </div>
+                <br>
+                
                   <h4>
-                    <strong>Music Recommendation System at Scale<a href="https://github.com/yvsandeep/Music-Recommendation-Engine-Pyspark"> [Github]</a></strong>
+                    <strong>Gaussian Splatting</strong>
                   </h4>
                   <div class="about-content">
                       <UL>
-                        <LI> Utilized Collaborative Filtering (ALS), Content-Based Filtering (Word2Vec, TFIDF, LDA), and Locality Sensitive Hashing
-                        <LI> Generated playlist recommendations and integrated Collaborative Filtering (Elephas + Pyspark), achieving low RMSE
-                                <!-- Image for Music Recommendation System -->
-                        <img src="img/portfolio/recommendation_system.png" alt="Music Recommendation System" style="width:100%;height:auto;">
-
+                        <LI> Utilized Gaussian splatting for Rendering custom 2-d images into a 3-d scene. <br>
+                          <LI> 3-d Self Portrait scene of approximately 280 2-d images  <br>
+                          <img src="img/portfolio/Gaussian Splatting_self.gif" alt="Gaussian Splatting Self" style="width:100%;height:auto;">
+                          <LI> 3-D reconstruction of Drone captured 2-D Images using Gaussian Splatting <br>
+                            <img src="img/portfolio/Gaussian Splatting_drone.gif" alt="Gaussian Splatting Drone" style="width:100%;height:auto;">
+            
+                          </UL>
+                  </div>
+                  <br>
+                  
+                  <h4>
+                    <strong>Context Limitation of LLM<a href="https://github.com/yvsandeep/Context-Limitation-LLM"> [Github]</a></strong>
+                  </h4>
+                  <div class="about-content">
+                      <UL>
+                        <LI> Created a LLM based chatbot in Python for custom PDF Q&A, utilizing RAG, Streamlit, Langchain and Chroma DB.
+                        <LI> Achieved context limitation through experiments on similarity matching using Sentence Transformers and Autoencoders.
+                        <img src="img/portfolio/context_limitation.png" alt="PDF QA system with Context Control" style="width:100%;height:auto;">
+                      </UL>
+                  </div>
+                  <br>
+                  
+                  <h4>
+                    <strong>Multimodal Hateful Meme Detection<a href="https://github.com/yvsandeep/Multimodal-Hateful-Meme-Detection"> [Github]</a></strong>
+                  </h4>
+                  <div class="about-content">
+                      <UL>
+                        <LI> Experimented with VisualBert, CLIP, and Huggingface MMBT, with Google Entity Detection and Meta Deepface.
+                        <LI> Attained a standout 78% accuracy in hateful meme detection using a multi modal architecture using Pytorch.
+                        <img src="img/portfolio/multimodal_design.png" alt="Hateful meme Identification" style="width:100%;height:auto;">
 
                       </UL>
                   </div>
@@ -211,61 +256,38 @@
 
                     </UL>
                   </div>
-                  <br>
-
-                <h4>
-                  <strong>Transfer Learning on CIFAR10: Benchmarking Inceptionv2, ResNet50, and VGG19<a href="https://github.com/yvsandeep"> [Github]</a></strong>
-                </h4>
-                <div class="about-content">
-                    <UL>
-                      <LI> The project Fine tuned Inceptionv2, ResNet50, and VGG19 pre-trained models on CIFAR10. Inceptionv2 excelled with a 95.44% accuracy and F1 score of 0.9567, signifying the effectiveness of strategic fine-tuning practices such as utilizing techniques like SGD with momentum, low learning rates, gradual unfreezing, discriminative fine-tuning, and learning rate schedule to enhance performance and prevent overfitting.
-                      <LI> Inceptionv2's performance peaked with a training time of just over 4 hours on a T4 GPU, outshining its counterparts with top test accuracy and F1 score. Its architectural complexity was well-suited to the dataset, demonstrating the potential of sophisticated models in transfer learning scenarios.
-                      <LI> ResNet50 displayed a balance of efficiency and accuracy on the T4 GPU, with training times averaging just under 3 hours and achieving a high test accuracy of 94.11% and an F1 score of 0.9415, validating the effectiveness of deep networks with residual learning.
-                      <LI> VGG19, with an extensive parameter set, showed a higher susceptibility to overfitting and a longer training duration of approximately 3 hours and 51 minutes on a T4 GPU, achieving a test accuracy of 93.31% and F1 score of 0.9327. This underscores the importance of model architecture compatibility with the dataset size.
-                    </UL>
-                </div>
-                <br>
-
-
+                  <br>  
                   <h4>
-                    <strong>Multimodal Hateful Meme Detection<a href="https://github.com/yvsandeep/Multimodal-Hateful-Meme-Detection"> [Github]</a></strong>
+                    <strong>Music Recommendation System at Scale<a href="https://github.com/yvsandeep/Music-Recommendation-Engine-Pyspark"> [Github]</a></strong>
                   </h4>
                   <div class="about-content">
                       <UL>
-                        <LI> Experimented with VisualBert, CLIP, and Huggingface MMBT, with Google Entity Detection and Meta Deepface.
-                        <LI> Attained a standout 78% accuracy in hateful meme detection using a multi modal architecture using Pytorch.
-                        <img src="img/portfolio/multimodal_design.png" alt="Hateful meme Identification" style="width:100%;height:auto;">
+                        <LI> Utilized Collaborative Filtering (ALS), Content-Based Filtering (Word2Vec, TFIDF, LDA), and Locality Sensitive Hashing
+                        <LI> Generated playlist recommendations and integrated Collaborative Filtering (Elephas + Pyspark), achieving low RMSE
+                                <!-- Image for Music Recommendation System -->
+                        <img src="img/portfolio/recommendation_system.png" alt="Music Recommendation System" style="width:100%;height:auto;">
+
 
                       </UL>
                   </div>
                   <br>
 
+
                   <h4>
-                    <strong>Context Limitation of LLM<a href="https://github.com/yvsandeep/Context-Limitation-LLM"> [Github]</a></strong>
+                    <strong>Transfer Learning on CIFAR10: Benchmarking Inceptionv2, ResNet50, and VGG19<a href="https://github.com/yvsandeep"> [Github]</a></strong>
                   </h4>
                   <div class="about-content">
                       <UL>
-                        <LI> Created a LLM based chatbot in Python for custom PDF Q&A, utilizing RAG, Streamlit, Langchain and Chroma DB.
-                        <LI> Achieved context limitation through experiments on similarity matching using Sentence Transformers and Autoencoders.
-                        <img src="img/portfolio/context_limitation.png" alt="PDF QA system with Context Control" style="width:100%;height:auto;">
+                        <LI> The project Fine tuned Inceptionv2, ResNet50, and VGG19 pre-trained models on CIFAR10. Inceptionv2 excelled with a 95.44% accuracy and F1 score of 0.9567, signifying the effectiveness of strategic fine-tuning practices such as utilizing techniques like SGD with momentum, low learning rates, gradual unfreezing, discriminative fine-tuning, and learning rate schedule to enhance performance and prevent overfitting.
+                        <LI> Inceptionv2's performance peaked with a training time of just over 4 hours on a T4 GPU, outshining its counterparts with top test accuracy and F1 score. Its architectural complexity was well-suited to the dataset, demonstrating the potential of sophisticated models in transfer learning scenarios.
+                        <LI> ResNet50 displayed a balance of efficiency and accuracy on the T4 GPU, with training times averaging just under 3 hours and achieving a high test accuracy of 94.11% and an F1 score of 0.9415, validating the effectiveness of deep networks with residual learning.
+                        <LI> VGG19, with an extensive parameter set, showed a higher susceptibility to overfitting and a longer training duration of approximately 3 hours and 51 minutes on a T4 GPU, achieving a test accuracy of 93.31% and F1 score of 0.9327. This underscores the importance of model architecture compatibility with the dataset size.
                       </UL>
                   </div>
                   <br>
 
-                  <h4>
-                    <strong>Gaussian Splatting</strong>
-                  </h4>
-                  <div class="about-content">
-                      <UL>
-                        <LI> Utilized Gaussian splatting for Rendering custom 2-d images into a 3-d scene. <br>
-                          <LI> 3-d Self Portrait scene of approximately 280 2-d images  <br>
-                          <img src="img/portfolio/Gaussian Splatting_self.gif" alt="Gaussian Splatting Self" style="width:100%;height:auto;">
-                          <LI> 3-D reconstruction of Drone captured 2-D Images using Gaussian Splatting <br>
-                            <img src="img/portfolio/Gaussian Splatting_drone.gif" alt="Gaussian Splatting Drone" style="width:100%;height:auto;">
-            
-                          </UL>
-                  </div>
-                  <br>
+
+
 
               </div>
             </div>
